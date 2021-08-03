@@ -131,3 +131,4 @@ dmypy.json
 .env
 temp
 test.py
+data/project.py
