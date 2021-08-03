@@ -22,11 +22,13 @@ DATA = {
             'password': 'P@ssw0rd'
         },
     '-1001146918177':
-    #'-538997376':
+    # '-538997376':
         {
             'chat_name': 'РМИС НСО Zabbix-уведомления',
-            'scripts_mis_local': ['MED_NSO_typal.jmx', 'MED_NSO_typal_node1.jmx', 'MED_NSO_typal_node2.jmx', 'MED_NSO_typal_node3.jmx', 'MED_NSO_typal_node4.jmx'],
-            'scripts_mis_remote': ['MED_NSO_typal.jmx', 'MED_NSO_typal_node1.jmx', 'MED_NSO_typal_node2.jmx', 'MED_NSO_typal_node3.jmx', 'MED_NSO_typal_node4.jmx'],
+            'scripts_mis_local': ['MED_NSO_typal.jmx', 'MED_NSO_typal_node1.jmx', 'MED_NSO_typal_node2.jmx',
+                                  'MED_NSO_typal_node3.jmx', 'MED_NSO_typal_node4.jmx'],
+            'scripts_mis_remote': ['MED_NSO_typal.jmx', 'MED_NSO_typal_node1.jmx', 'MED_NSO_typal_node2.jmx',
+                                   'MED_NSO_typal_node3.jmx', 'MED_NSO_typal_node4.jmx'],
             'cod_server_ip': '192.168.233.169',
             'cod_server_port': '3920',
             'remote_checks': False,
@@ -34,7 +36,7 @@ DATA = {
             'password': 'oDI0~4}4hBYZ'
         },
     '-1001369516514':
-    #'-538997376':
+    # '-538997376':
         {
             'chat_name': 'РМИС ПК Zabbix-уведомления',
             'scripts_mis_local': ['MED_PK_typal.jmx'],

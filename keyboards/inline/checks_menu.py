@@ -9,7 +9,7 @@ def choice_checks_menu(chat_id):
     if chat_id not in DATA:
         return "Chat ID не найден!"
 
-    if DATA[chat_id]['remote_checks']:
+    elif DATA[chat_id]['remote_checks']:
         choice_menu.add(
             InlineKeyboardButton(text='Проверка МИС из ЦОДа', callback_data='typal_checks_cod'))
     return choice_menu

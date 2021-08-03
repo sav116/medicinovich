@@ -13,7 +13,10 @@ async def show_menu(message: types.Message):
     # await message.delete()
     chat_id = str(message.chat.id)
     checks_menu = choice_checks_menu(chat_id)
-    await message.answer("Меню проверок МИС:", reply_markup=checks_menu)
+    if isinstance(checks_menu, str):
+        await message.answer(checks_menu)
+    else:
+        await message.answer("Меню проверок МИС:", reply_markup=checks_menu)
 
 
 @dp.callback_query_handler(text='typal_checks_bars')
