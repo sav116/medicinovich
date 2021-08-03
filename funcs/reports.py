@@ -7,6 +7,8 @@ def getReport(key):
                 sec = round(int(line.split(',')[1]) / 1000, 2)
                 secs[index] = sec
                 index += 1
+                if index == 11:
+                    break
 
     report = f"Авторизация в МИС: {secs[0]} с.\n\
 Выбор ЛПУ: {secs[1]} с.\n\
